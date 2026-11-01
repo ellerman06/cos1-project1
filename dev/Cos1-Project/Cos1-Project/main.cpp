@@ -1,7 +1,13 @@
 
 #include <iostream>
+#include "Ship.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	Ship playerShip;
+
+	playerShip.displayStatus();
+
+	return 0;
+
 }
